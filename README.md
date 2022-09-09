@@ -54,7 +54,7 @@ sub	Subtracts the top two elements of the stack from the second top element. The
 div	Divides the top two elements of the stack from the second top element. The result is then stored in the second node, and the first node is removed.
 mul	Multiplies the top two elements of the stack from the second top element. The result is then stored in the second node, and the first node is removed.
 mod	Computes the remainder of the top two elements of the stack from the second top element. The result is then stored in the second node, and the first node is removed.
-# When the first non-space of a line is a # the line will be trated as a comment.
+#	When the first non-space of a line is a # the line will be trated as a comment.
 pchar	Prints the integer stored in the top of the stack as its ascii value representation.
 pstr	Prints the integers stored in the stack as their ascii value representation. It stops printing when the value is 0, when the stack is over and when the value of the element is a non-ascii value.
 rotl	Rotates the top of the stack to the bottom of the stack.
